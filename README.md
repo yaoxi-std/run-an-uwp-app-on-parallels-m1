@@ -20,7 +20,7 @@ As Parallels Desktop said (you can find this on [parallels forums](https://forum
 
 1. 在[microsoft.com](https://www.microsoft.com)搜索你想要的uwp应用，并在网址栏将product id复制下来
 
-   例如：https://www.microsoft.com/zh-cn/p/windows-%e8%ae%a1%e7%ae%97%e5%99%a8/**9wzdncrfhvn5**?activetab=pivot:overviewtab （计算器）的product id就是上面的**9wzdncrfhvn5**
+   例如：https://www.microsoft.com/zh-cn/p/windows-%e8%ae%a1%e7%ae%97%e5%99%a8/9wzdncrfhvn5?activetab=pivot:overviewtab （计算器）的product id就是上面的**9wzdncrfhvn5**
 
 2. 打开[https://store.rg-adguard.net/](https://store.rg-adguard.net/)，在搜索框里填入product id（刚刚的那那段文字），将搜索框左边的菜单URL (link)改成ProductId，点右边的勾搜索
 
