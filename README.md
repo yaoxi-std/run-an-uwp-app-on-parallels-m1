@@ -30,8 +30,10 @@ As Parallels Desktop said (you can find this on [parallels forums](https://forum
 
 5. 将下载好的.appxbundle文件后缀名改成.zip，然后解压，进入文件夹，你会发现一堆语言的文件包和一个名字带有"Win32"的后缀名为.appx的文件
 
-6. 先直接点开名字带有"Win32"的.appx文件，系统会自动安装，然后再根据自己的语言（你是中文就点那个带有zh-hans或zh-cn的）选择.appx文件点开安装（所以这一步一共要点开**两个**.appx包）
+6. 先直接点开名字带有"Win32"的.appx文件，系统会自动安装，然后再根据自己的语言（你是中文就点那个带有zh-hans或zh-cn的，如果没有语言文件就不安装语言文件）选择.appx文件点开安装（所以这一步一共要点开**两个**.appx包）
 
-7. 然后你就会惊奇地发现，这个app可以打开了！而且跟我们平时在X86上运行的没有一点区别！
+7. 如果提示不能安装，就打开powershell，输入 add-appxpackage 文件名.appx 会有红色的字提示你原因（大概率是缺少依赖文件），然后按照同样的步骤打开[https://store.rg-adguard.net/](https://store.rg-adguard.net/)，在搜索框里填入包的名称，将搜索框左边的菜单URL (link)**改成PackageFamilyName**，点右边的勾搜索，下载**相同架构（X86）**的依赖项按照同样的步骤安装好，最好再回过头来安装你需要的uwp应用
+
+8. 然后你就会惊奇地发现，这个app可以打开了！而且跟我们平时在X86上运行的没有一点区别！
 
 
