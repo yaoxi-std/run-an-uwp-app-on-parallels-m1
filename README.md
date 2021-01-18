@@ -14,6 +14,10 @@ As Parallels Desktop said (you can find this on [parallels forums](https://forum
 
 #### 打开UWP的正确方式 (The right way to open an UWP app)
 
+**此方法只适用于能在Microsoft Store上搜索到的UWP应用。（我一个初二学生自己摸索出来的方法）**
+
+**This method only works on UWP Apps which can be found on Microsoft Store (I am a junior 2 student to explore this method).**
+
 通过某种渠道（google），我了解到可以在[这个网站](https://store.rg-adguard.net/)上查询到Windows商店中的应用。因此，我们可以通过搜索网址的方式来下载安装包。
 
 In some ways (google) , I found that it is possible to query Apps in Microsoft Store on [this website](https://store.rg-adguard.net/). By this, we can download the installation files by searching URLs.
@@ -56,6 +60,12 @@ add-appxpackage *zh-hans*  # Install language packages. You can change it into o
 
    If some red words appear, please check the dependencies of this app. Search the dependency packages on [https://store.rg-adguard.net/](https://store.rg-adguard.net/) and download and install it first.
 
-8. 然后你就会惊奇地发现，这个app可以打开了！享受吧！
+8. 然后你就会惊奇地发现，这个app可以完美运行了！享受吧！
 
    In the end, you will see these UWP apps work well on you computer. Enjoy it!
+
+
+
+你还可以在[B站](https://www.bilibili.com/video/BV1hp4y1x79y)上看到我的操作方法的视频（只不过用了另一种搜索包文件的方法）。
+
+You can also see the operations on [Bilibili](https://www.bilibili.com/video/BV1hp4y1x79y) (it used another way to search the package files).
